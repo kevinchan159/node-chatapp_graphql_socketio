@@ -1,0 +1,29 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Real-time website chat app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+  	"express": "*",
+  	"body-parser": "*",
+  	"express-handlebars": "*",
+  	"pg": "*",
+  	"bcryptjs": "*",
+  	"dotenv": "*",
+  	"express-graphql": "*",
+  	"graphql": "*",
+  	"promise": "*",
+  	"passport": "*",
+  	"passport-local": "*",
+  	"express-session": "*",
+  	"connect-flash": "*",
+  	"http": "*",
+    "request": "*",
+    "socket.io": "*"
+  },
+  "author": "Kevin Chan",
+  "license": "ISC"
+}
